@@ -1,0 +1,3 @@
+TRUNCATE TABLE workshop.dim_client;
+
+ALTER TABLE workshop.dim_client ALTER CONSTRAINT C_PRIMARY ENABLED;
