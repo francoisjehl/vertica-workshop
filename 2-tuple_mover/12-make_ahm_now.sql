@@ -1,0 +1,1 @@
+SELECT MAKE_AHM_NOW();
