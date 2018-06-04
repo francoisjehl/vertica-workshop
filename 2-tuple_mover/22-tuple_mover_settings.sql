@@ -3,4 +3,4 @@ SELECT
   current_value,
   description
 FROM configuration_parameters 
-WHERE parameter_name IN ('AdvanceAHMInterval', 'MoveOutInterval', 'MergeOutInterval');
+WHERE parameter_name IN ('AdvanceAHMInterval', 'AnalyzeRowCountInterval', 'MoveOutInterval', 'MergeOutInterval');
