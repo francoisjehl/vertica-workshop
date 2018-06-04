@@ -6,4 +6,4 @@ SELECT * FROM epochs;
 
 SELECT MAKE_AHM_NOW();
 
-SELECT PURGE();
+SELECT PURGE_TABLE('workshop.fact_sales');
